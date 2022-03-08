@@ -1,0 +1,48 @@
+.side-by-side {
+  display: flex;
+  width: 40%;
+}
+.img-space {
+  padding: 0px 10px;
+}
+
+.section__paragraph {
+  line-height: 1.5;
+  color: #7e7e7e;
+}
+
+.bread-bck {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url("../../images/tasteful-recipes-img.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 15% 0px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 6px;
+  padding-top: 30px;
+}
+
+@media (max-width: 1024px) {
+  .side-by-side {
+    display: none;
+  }
+
+  .trigger-2,
+  .trigger-4 {
+    padding: 0;
+    padding-bottom: 2.5rem;
+  }
+
+  .hero {
+    height: 75vh;
+  }
+}
+
+@media (max-width: 735px) {
+  .gallery {
+    display: none;
+  }
+}

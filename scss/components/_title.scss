@@ -1,0 +1,23 @@
+.title {
+  line-height: 0;
+
+  &__main {
+    color: $primary-color;
+    font-family: $mainHeader;
+    font-size: 85px;
+  }
+
+  &__sub {
+    font-family: $subHeader;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    &--black {
+      color: $secondary-color;
+    }
+    &--white {
+      color: #fff;
+    }
+  }
+}
