@@ -587,7 +587,7 @@ section {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 20%;
             flex: 0 0 20%;
-    margin: 30px auto 0;
+    margin: 30px auto;
   }
 }
 
